@@ -10,6 +10,13 @@
 		FF2173CE204490790082CFD4 /* ImageUtilsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2173C4204490790082CFD4 /* ImageUtilsKit.framework */; };
 		FF2173D3204490790082CFD4 /* ImageUtilsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173D2204490790082CFD4 /* ImageUtilsKitTests.swift */; };
 		FF2173D5204490790082CFD4 /* ImageUtilsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2173C7204490790082CFD4 /* ImageUtilsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF2173E8204490A90082CFD4 /* BasicsMacKit4b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2173E5204490A20082CFD4 /* BasicsMacKit4b.framework */; };
+		FF2173EA204490D40082CFD4 /* IUKImageMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173E9204490D40082CFD4 /* IUKImageMetadata.swift */; };
+		FF2173EE204499B00082CFD4 /* CGImageMetadataTagExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173ED204499B00082CFD4 /* CGImageMetadataTagExtensions.swift */; };
+		FF2174012044A0890082CFD4 /* CGImageSourceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2174002044A0890082CFD4 /* CGImageSourceExtensions.swift */; };
+		FF21741B2044B9060082CFD4 /* IUKImageMetadataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21741A2044B9060082CFD4 /* IUKImageMetadataItem.swift */; };
+		FF5647732045DADE00BE117C /* IUKImageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5647722045DADE00BE117C /* IUKImageProperties.swift */; };
+		FF56477A2045E6D600BE117C /* IUKImageProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5647792045E6D600BE117C /* IUKImageProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +27,20 @@
 			remoteGlobalIDString = FF2173C3204490790082CFD4;
 			remoteInfo = ImageUtilsKit;
 		};
+		FF2173E4204490A20082CFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2173DF204490A20082CFD4 /* BasicsMacKit4b.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFBFBF3B202E3F38005C2E35;
+			remoteInfo = BasicsMacKit4b;
+		};
+		FF2173E6204490A20082CFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2173DF204490A20082CFD4 /* BasicsMacKit4b.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFBFBF44202E3F38005C2E35;
+			remoteInfo = BasicsMacKit4bTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +50,13 @@
 		FF2173CD204490790082CFD4 /* ImageUtilsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageUtilsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2173D2204490790082CFD4 /* ImageUtilsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtilsKitTests.swift; sourceTree = "<group>"; };
 		FF2173D4204490790082CFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2173DF204490A20082CFD4 /* BasicsMacKit4b.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BasicsMacKit4b.xcodeproj; path = ../BasicsMacKit4b/BasicsMacKit4b.xcodeproj; sourceTree = "<group>"; };
+		FF2173E9204490D40082CFD4 /* IUKImageMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUKImageMetadata.swift; sourceTree = "<group>"; };
+		FF2173ED204499B00082CFD4 /* CGImageMetadataTagExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageMetadataTagExtensions.swift; sourceTree = "<group>"; };
+		FF2174002044A0890082CFD4 /* CGImageSourceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageSourceExtensions.swift; sourceTree = "<group>"; };
+		FF21741A2044B9060082CFD4 /* IUKImageMetadataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUKImageMetadataItem.swift; sourceTree = "<group>"; };
+		FF5647722045DADE00BE117C /* IUKImageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUKImageProperties.swift; sourceTree = "<group>"; };
+		FF5647792045E6D600BE117C /* IUKImageProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUKImageProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2173E8204490A90082CFD4 /* BasicsMacKit4b.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +85,7 @@
 				FF2173C6204490790082CFD4 /* ImageUtilsKit */,
 				FF2173D1204490790082CFD4 /* ImageUtilsKitTests */,
 				FF2173C5204490790082CFD4 /* Products */,
+				FF2173DE204490A10082CFD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +101,12 @@
 		FF2173C6204490790082CFD4 /* ImageUtilsKit */ = {
 			isa = PBXGroup;
 			children = (
+				FF56476F2045DABF00BE117C /* properties */,
+				FF2174172044B8EF0082CFD4 /* metadata */,
 				FF2173C7204490790082CFD4 /* ImageUtilsKit.h */,
 				FF2173C8204490790082CFD4 /* Info.plist */,
+				FF2173ED204499B00082CFD4 /* CGImageMetadataTagExtensions.swift */,
+				FF2174002044A0890082CFD4 /* CGImageSourceExtensions.swift */,
 			);
 			path = ImageUtilsKit;
 			sourceTree = "<group>";
@@ -84,6 +118,41 @@
 				FF2173D4204490790082CFD4 /* Info.plist */,
 			);
 			path = ImageUtilsKitTests;
+			sourceTree = "<group>";
+		};
+		FF2173DE204490A10082CFD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF2173DF204490A20082CFD4 /* BasicsMacKit4b.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF2173E0204490A20082CFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2173E5204490A20082CFD4 /* BasicsMacKit4b.framework */,
+				FF2173E7204490A20082CFD4 /* BasicsMacKit4bTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2174172044B8EF0082CFD4 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				FF2173E9204490D40082CFD4 /* IUKImageMetadata.swift */,
+				FF21741A2044B9060082CFD4 /* IUKImageMetadataItem.swift */,
+			);
+			path = metadata;
+			sourceTree = "<group>";
+		};
+		FF56476F2045DABF00BE117C /* properties */ = {
+			isa = PBXGroup;
+			children = (
+				FF5647722045DADE00BE117C /* IUKImageProperties.swift */,
+				FF5647792045E6D600BE117C /* IUKImageProperty.swift */,
+			);
+			path = properties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +217,7 @@
 				TargetAttributes = {
 					FF2173C3204490790082CFD4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					FF2173CC204490790082CFD4 = {
@@ -166,6 +236,12 @@
 			mainGroup = FF2173BA204490790082CFD4;
 			productRefGroup = FF2173C5204490790082CFD4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF2173E0204490A20082CFD4 /* Products */;
+					ProjectRef = FF2173DF204490A20082CFD4 /* BasicsMacKit4b.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF2173C3204490790082CFD4 /* ImageUtilsKit */,
@@ -173,6 +249,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF2173E5204490A20082CFD4 /* BasicsMacKit4b.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BasicsMacKit4b.framework;
+			remoteRef = FF2173E4204490A20082CFD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF2173E7204490A20082CFD4 /* BasicsMacKit4bTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BasicsMacKit4bTests.xctest;
+			remoteRef = FF2173E6204490A20082CFD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FF2173C2204490790082CFD4 /* Resources */ = {
@@ -196,6 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF56477A2045E6D600BE117C /* IUKImageProperty.swift in Sources */,
+				FF2173EA204490D40082CFD4 /* IUKImageMetadata.swift in Sources */,
+				FF21741B2044B9060082CFD4 /* IUKImageMetadataItem.swift in Sources */,
+				FF2174012044A0890082CFD4 /* CGImageSourceExtensions.swift in Sources */,
+				FF5647732045DADE00BE117C /* IUKImageProperties.swift in Sources */,
+				FF2173EE204499B00082CFD4 /* CGImageMetadataTagExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +432,7 @@
 		FF2173D9204490790082CFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,6 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourbottles.bsg.ImageUtilsKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -355,6 +456,7 @@
 		FF2173DA204490790082CFD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -377,6 +479,7 @@
 		FF2173DC204490790082CFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GZ427KN25G;
@@ -391,6 +494,7 @@
 		FF2173DD204490790082CFD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GZ427KN25G;
